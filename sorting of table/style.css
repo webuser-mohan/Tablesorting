@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+table{
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+}
+table,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table thead td a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+table tbody {
+    font-size: medium;
+}
